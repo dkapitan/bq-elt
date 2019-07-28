@@ -1,0 +1,34 @@
+# http://blog.jupo.org/2012/04/06/topological-sorting-acyclic-directed-graphs/
+jobs:
+  - job_2:
+      input: [11]
+      output: [2]
+      task: 2
+  - job_3:
+      input: []
+      output: [3]
+      task: 1
+  - job_5:
+      input: []
+      output: [5]
+      task: 0.5
+  - job_7:
+      input: []
+      output: [7]
+      task: 4
+  - job_8:
+      input: [3,7]
+      output: [8]
+      task: 2
+  - job_9:
+      input: [8, 11]
+      output: [9]
+      task: 1
+  - job_10:
+      input: [3, 11]
+      output: [10]
+      task: 0.5
+  - job_11:
+      input: [5, 7]
+      output: [11]
+      task: 2
